@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+    background-color: orange;
+}
+body{
+    font-family: arial;
+}
+p{
+    font-size: 30px;
+}
+ul{
+    font-size: 20px;
+}

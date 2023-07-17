@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'milky mania';
+    src: url('fonts/milky mania.otf') format('opentype');
+}
+body{
+    font-family: 'milky mania', 'arial', sans-serif;
+    text-align: justify;
+    background-color: #2e8b57;
+    font-weight: 600;
+}
+h1{
+    color: #A33325;
+} 
+
+h1#principal{
+    text-align: center;
+    background-color: #0b2215;
+}
+
+.basico{
+color: #292e1c;
+}
+
+.intermediario{
+color: #333745;
+}
+
+.avançado{
+color: #FE5F55;
+}
+
+.destaque{
+    background-color: aqua;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+}

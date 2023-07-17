@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #9FB4C7, #28587B);
+}
+
+main{
+    background-color: white;
+    font-family: 'milky mania';
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+@font-face {
+    font-family: 'milky mania';
+    src: url('milky mania.otf') format('opentype');
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+

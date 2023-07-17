@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: "milky mania";
+            src: url("fonts/milky mania.otf") format("opentype");
+        }
+        body{
+            font-family: "milky mania";
+            background-color: #FFFFB3;
+        }
+        header{
+            text-align: center;
+            border: 10px solid black;
+            padding: 10px;
+            width: 300px;
+            margin: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        main{
+            background-color: grey;
+            padding: 10px;
+            margin:auto;
+            border: 2px solid black;
+            box-shadow: 4px 20px 1px black;
+            border-radius: 5px;
+            text-align: justify;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 3px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            margin: 30px;
+        }
+
+        nav > a:hover{
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        nav > a:active{
+            color: red;
+        }
+        img{
+            border: 2px solid black;
+            margin-left: 50px;
+        }
+
+        nav{
+            background-color: grey;
+            box-shadow: 4px 5px 1px black;
+            border-radius: 3px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin-top: 10px;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Grouping tags</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor nam sint et animi laborum quae? Quasi animi modi recusandae eligendi iusto debitis omnis? Sit blanditiis fugit est eveniet illo iure Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur deserunt illum optio? Illum sed voluptatum, natus tenetur dicta necessitatibus quasi vel et nostrum explicabo rem, doloremque temporibus deleniti quisquam ratione!.
+                <br><img src="imagens/paisagem.jpg" alt="paisagem" width="400">
+                <aside>
+                    <p>Feito por delta, o melhor</p>
+                </aside>
+            </article>
+        </section>
+        <section id="propagandas">
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por DELTA</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>

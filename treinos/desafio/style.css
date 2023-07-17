@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "bestwishes";
+    src: url("fontes/bestwishes.ttf") format("truetype");
+}
+
+:root{
+    --fonte-destaque: "bestwishes";
+
+    --cor01: #F2F3AE;
+    --cor02: #EDD382;
+    --cor03: #FC9E4F;
+    --cor04: #FF521B;
+    --cor05: #020122;
+}
+
+body{
+    background-color: var(--cor02);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 5em;
+    color: var(--cor04);
+}
+
+header{
+    background-color: #020122;
+    margin-top: 0px;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    padding: 5px;
+}
+
+header p{
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonte-destaque);
+    color: var(--cor04);
+    margin-bottom: 20px;
+}
+
+nav{
+    color: var(--cor04);
+    text-align: center;
+    margin-top: 8px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor04);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: black;
+    background-color: #F2F3AE;
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+
+main a{
+    color: var(--cor04);
+    text-decoration: none;
+}
+
+main a:hover{
+    background-color: #0201226e;
+    border-radius: 5px;
+}
+
+main p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+main img {
+    width: 100%;
+}
+
+footer{
+    background-color: #020122;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
