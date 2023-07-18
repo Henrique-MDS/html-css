@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cactus';
+    src: url('../fontes/Cactus-Town.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'conforta';
+    src: url('../fontes/conforta.ttf') format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --fonte-destaque: 'cactus', arial, helvetica, sans-serif;
+    --fonte-texto: 'conforta', arial, helvetica, sans-serif;
+
+    --cor01: #D8F793;
+    --cor02: #00916E;
+    --cor03: #33312E;
+    --cor04: #C73E1D;
+    --cor05: #7EBCE6;
+}
+
+body{
+    background-color: grey;
+}
+
+header{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--cor03);
+    color: white;
+}
+
+section{
+    background-color: white;
+    min-width: 320px;
+    border-radius: 5px;
+}
+
+section > p{
+    font-size: 2em;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 15px;
+    font-family: var(--fonte-texto);
+    padding-bottom: 2em;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 1000px;
+    border-radius: 5px;
+}
+
+section.imagem{
+    background-image: url('../imagens/pompeia01.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+}
