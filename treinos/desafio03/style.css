@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-color: burlywood;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    max-width: 500px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+header{
+    color: white;
+    padding: 20px;
+}
+
+nav{
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: cadetblue;
+    border-radius: 5px;
+}
